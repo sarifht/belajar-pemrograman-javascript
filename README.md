@@ -3,6 +3,8 @@ Ini merupakan repository saya dalam belajar JavaScript. Didalamnya berisi mengen
 
 Kamu bisa pakai kode latihan saya pada kelasmu, tapi saya harap kamu sembari memahami kode tersebut, alangkah ruginya kalo kamu cuma menyelesaikan kelas tanpa memahaminya 😊
 
+Kalo kamu bertanya, saya belajar JavaScript di repo ini dari mana? saya belajarnya di platform Dicoding (buka endorse ya ✌️) kebetulan saya mendapatkan program belajar gratis disana.
+
 ...
 
 # Tata cara menjalankan kode JavaScript 🍷
