@@ -115,3 +115,10 @@ false
 true
 */
 
+
+// Tipe data Null
+let someLaterData = null;
+console.log(someLaterData);
+/* output:
+null
+*/
