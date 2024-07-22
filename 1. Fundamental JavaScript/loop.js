@@ -23,3 +23,19 @@ for(let i = 0; i < 5; i++) {
 3
 4
 */
+
+// For of Loop
+/* 
+Cara lain dalam melakukan looping adalah menggunakan for..of. For of mulai hadir pada ECMAScript 2015 (ES6). Cara ini jauh lebih sederhana dan modern dibanding for loop biasa.
+*/
+let myArray = ["Aku", "Kamu", "Kita", "Kami"];
+
+for(const arrayItem of myArray) {
+console.log(arrayItem)
+}
+/* output
+Aku
+Kamu
+Kita
+Kami
+*/
