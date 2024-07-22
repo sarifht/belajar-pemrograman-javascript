@@ -92,3 +92,26 @@ console.log(`Hello, my name is ${myName}.`);
 
 
 // Tipe data Boolean
+let e = true;
+let f = false;
+
+console.log(typeof(e))
+console.log(typeof(f))
+/* output: 
+boolean
+boolean
+*/
+
+const g = 10;
+const h = 12;
+
+let isGreater = g > h;
+let isLess = g < h;
+
+console.log(isGreater);
+console.log(isLess);
+/* output:
+false
+true
+*/
+
