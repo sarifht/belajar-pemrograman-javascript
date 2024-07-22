@@ -57,3 +57,25 @@ do {
 console.log(j);
 j++;
 } while (j <= 5);
+
+
+// Infinite Loop
+/*
+Pada While Loop
+let i = 1;
+
+while (i <= 5) {
+console.log(i);
+} 
+
+Hati-hati dalam menjalankannya karena dapat mengakibatkan crash
+*/
+
+/*
+Pada For Loop
+for(let i = 1; i <= 5; i=1) {
+console.log(i);
+}
+
+Hati-hati dalam menjalankannya karena dapat mengakibatkan crash
+*/
