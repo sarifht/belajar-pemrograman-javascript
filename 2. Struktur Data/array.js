@@ -81,3 +81,16 @@ console.log(myArray1);
 /* output
 [ 'Cokelat', 42.5, true, 'Programming' ]
 */
+
+// Menambahkan elemen pada posisi yang dihapus
+const month = ['January', 'March', 'April', 'May'];
+console.log('before splice: ', month);
+/* 
+before splice:  [ 'January', 'March', 'April', 'May' ]
+*/
+
+month.splice(1, 0, 'February');
+console.log('after splice: ', month);
+/* 
+after splice:  [ 'January', 'February', 'March', 'April', 'May' ]
+*/
