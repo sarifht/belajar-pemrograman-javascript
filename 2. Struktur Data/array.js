@@ -63,3 +63,13 @@ console.log(myArray);
 /* output
 [ 'Apple', 42.5, 22, true, 'Programming' ]
 */
+
+// Menghapus data dalam array
+delete myArray[1];
+console.log(myArray);
+/* output
+[ 'Cokelat', <1 empty item>, 22, true, 'Programming' ]
+
+Namun, perhatikan di sini bahwa keyword delete hanya menghapus data pada index yang ditentukan lalu membiarkan posisi tersebut kosong. 
+*/
+
