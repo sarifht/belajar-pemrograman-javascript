@@ -73,3 +73,11 @@ console.log(myArray);
 Namun, perhatikan di sini bahwa keyword delete hanya menghapus data pada index yang ditentukan lalu membiarkan posisi tersebut kosong. 
 */
 
+// Menghapus elemen beserta posisinya menggunakan splice()
+const myArray1 = ["Cokelat", 42.5, 22, true, "Programming"];
+
+myArray1.splice(2, 1);   // Menghapus dari index 2 sebanyak 1 elemen
+console.log(myArray1);
+/* output
+[ 'Cokelat', 42.5, true, 'Programming' ]
+*/
