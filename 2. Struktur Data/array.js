@@ -42,11 +42,24 @@ myArray.push('JavaScript');
 console.log(myArray);
 /* output
 [ 'Cokelat', 42.5, 22, true, 'Programming', 'JavaScript' ]
- */
+*/
 
 // Menghapus data array tapi elemen terakhir
 myArray.pop();
 console.log(myArray);
 /* output
 [ Cokelat, 42.5, 22, true ]
+*/
+
+// Manipulasi array dengan shift() dan unshift() khusus untuk data pertama
+myArray.shift();
+console.log(myArray);
+/* output
+[ 42.5, 22, true, 'Programming' ]
+*/
+
+myArray.unshift("Apple");
+console.log(myArray);
+/* output
+[ 'Apple', 42.5, 22, true, 'Programming' ]
 */
