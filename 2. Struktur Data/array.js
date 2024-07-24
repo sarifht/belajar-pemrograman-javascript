@@ -14,21 +14,19 @@ Oh iya, pemanggilan index ke-1 dimulai dari 0 ya!
 */
 
 // Contoh kode pemanggilan array menggunakan index
-let myArray1 = ["Cokelat", 42.5, 22, true, "Programming"];
-console.log(myArray1[1]);
+console.log(myArray[1]);
 /* output:
 42.5
 */
 
 // Contoh pemanggilan array tapi diluar batas index
-let myArray2 = ["Cokelat", 42.5, 22, true, "Programming"];
-console.log(myArray2[1]);
-console.log(myArray2[2]);
-console.log(myArray2[0]);
-console.log(myArray2[3]);
-console.log(myArray2[4]);
-console.log(myArray2[5]);
-console.log("Panjang nilai myArray adalah " + myArray2.length + ".");
+console.log(myArray[1]);
+console.log(myArray[2]);
+console.log(myArray[0]);
+console.log(myArray[3]);
+console.log(myArray[4]);
+console.log(myArray[5]);
+console.log("Panjang nilai myArray adalah " + myArray.length + ".");
 /* output:
 Cokelat
 42.5
@@ -38,3 +36,10 @@ Programming
 undefined
 Panjang nilai myArray adalah 5.
 */
+
+// Menambahkan data ke dalam array
+myArray.push('JavaScript');
+console.log(myArray);
+/* output
+[ 'Cokelat', 42.5, 22, true, 'Programming', 'JavaScript' ]
+ */
