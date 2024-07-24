@@ -16,7 +16,7 @@
  *        - Anda tidak perlu membuat variabel result dan score secara manual.
  *          Gunakan variabel yang sudah disediakan.
  *
- */
+*/
 
 function scoreChecker(score) {
     let result;
