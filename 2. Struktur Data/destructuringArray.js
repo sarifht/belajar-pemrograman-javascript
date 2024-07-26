@@ -19,3 +19,13 @@ Bedanya dengan Object, pada bagian tanda
 kurung kurawal { } sedangkan array menggunakan 
 tanda kurung siku [ ]
 */
+
+
+// Memilih element mana yang ingin diambil
+const favorites1 = ["Seafood", "Salad", "Nugget", "Soup"];
+const [ , , thirdFood1 ] = favorites1
+console.log(thirdFood1);
+ 
+/* output:
+Nugget
+*/
