@@ -25,3 +25,15 @@ sapaan("Sarif", "Indonesia");
   Bonjour Harry!
 */
 
+
+// Fungsi menampilkan perhitungan
+
+function angka(a,b) {
+    return a + b;
+}
+
+let tambah = angka(2,3);
+console.log(tambah);
+/* output
+  5
+*/
