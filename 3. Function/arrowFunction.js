@@ -11,3 +11,14 @@ const sayHello = () => {
 }
 
 sayHello();
+
+// Tips untuk menghemat baris kode
+const sayName1 = fullName => console.log(`Halo nama aku ${fullName}`);
+sayName1('Sarif Hidayatullah');
+
+const sayHello1 = () => console.log('Selamat sore semua!');
+sayHello1();
+/* Output:
+Halo nama aku Sarif Hidayatullah
+Selama sore semua!
+*/
