@@ -22,3 +22,8 @@ sayHello1();
 Halo nama aku Sarif Hidayatullah
 Selama sore semua!
 */
+
+// Menuliskan fungsi return
+const multiply = (a, b) => a + b;
+console.log(multiply(2, 3)); 
+// Output: 5
