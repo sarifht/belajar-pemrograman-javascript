@@ -62,3 +62,14 @@ if (name) {
 /* output:
 Nama masih kosong
 */
+let a = 1;
+
+switch (a) {
+    case a=1:
+    console.log("a is 1");
+    break;
+
+    case a=2:
+    console.log("a is 2");
+    break
+}
