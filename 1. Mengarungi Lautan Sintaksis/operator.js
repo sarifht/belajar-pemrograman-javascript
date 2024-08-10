@@ -32,3 +32,30 @@ age = 30;
     5. String Operator (Operator String)
 */
 
+// Contoh Assignment Operator
+// Operator ini dicirikan dengan tanda sama dengan (=)
+let city = 'Jakarta';
+console.log(city); // Jakarta
+
+city = 'Bandung';
+console.log(city); // Bandung
+
+// Contoh Arithmetic Operator
+let a = 10;
+let b = 3;
+
+console.log(a + b); // 13
+console.log(a - b); // 7
+console.log(a * b); // 30
+console.log(a / b); // 3.3333333333333335
+console.log(a % b); // 1
+console.log((a + b) + a); // 23
+
+// Perpangkatan
+console.log(a ** b); // 1000
+
+// Increment dan Decrement
+console.log(a++); // 10
+console.log(a++); // 11
+console.log(b--); // 3
+console.log(b--); // 2
