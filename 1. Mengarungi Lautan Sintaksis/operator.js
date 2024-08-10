@@ -103,3 +103,13 @@ console.log(!true); // false
 console.log(!false); // true
 
 
+// String Operator
+console.log('');
+const firstName = 'Sarif'
+const lastName = "Hidayatullah"
+
+const fullName = firstName + lastName;
+
+console.log(fullName);
+console.log(firstName * lastName);
+
