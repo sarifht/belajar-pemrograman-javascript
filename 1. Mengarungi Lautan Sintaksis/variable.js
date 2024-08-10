@@ -57,8 +57,7 @@ function printCountryInfo() {
     console.log('Country name:', name);
     console.log('Legal type:', legal);
   }
-   
-  function printEmployeeInfo() {
+function printEmployeeInfo() {
     const name = 'Sarif Hidayatullah'; // <- nama variabel sama
     const division = 'UIUX';
     
