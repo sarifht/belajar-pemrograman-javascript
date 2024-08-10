@@ -40,7 +40,9 @@ console.log(city); // Jakarta
 city = 'Bandung';
 console.log(city); // Bandung
 
+
 // Contoh Arithmetic Operator
+console.log('');
 let a = 10;
 let b = 3;
 
@@ -59,3 +61,23 @@ console.log(a++); // 10
 console.log(a++); // 11
 console.log(b--); // 3
 console.log(b--); // 2
+
+
+// Contoh Comparison Operator
+console.log('');
+let angka1 = 10;
+let angka2 = "10";
+let angka3 = 12;
+
+let kata1 = "Joko";
+let kata2 = "joko";
+let kata3 = "Widodo"
+
+console.log(angka1>angka3);
+console.log(angka1==angka2);
+console.log(angka1<angka3);
+console.log(angka1===angka2);
+
+console.log(kata1!==kata2);
+console.log(kata1==kata3);
+
