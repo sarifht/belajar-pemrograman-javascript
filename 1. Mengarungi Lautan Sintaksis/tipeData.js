@@ -44,3 +44,37 @@ const pembagian = 10 / 0;
 console.log(pembagian); // Infinity
 const konversi = Number('Joko Widodo');
 console.log(konversi); // NaN
+
+// Tipe data Boolean
+/*
+    Tipe data Boolean adalah tipe data yang digunakan untuk 
+    merepresentasikan nilai kebenaran. 
+    Hanya ada dua nilai Boolean, yaitu true dan false.
+*/
+console.log('');
+const isLogin = true;
+const isLogout = false;
+console.log(isLogin);
+console.log(isLogout);
+
+// Boolean biasanya digunakan pada perbandingan seperti dibawah ini
+const compare = 10 > 5;
+console.log(compare);
+
+// Tipe data Null dan Undefined
+console.log('');
+let message = null;
+console.log(message);
+let test;
+console.log(test);
+
+// Contoh lebih dalam perbedaan Null dan Undefined
+const name1 = { first: 'Dicoding', last: null };
+const name2 = { first: 'Dicoding', last: undefined };
+
+console.log(JSON.stringify(name1)); // output: {"first":"Dicoding","last":null}
+console.log(JSON.stringify(name2)); // output: {"first":"Dicoding"}
+/* 
+    Jadi jika ingin membuat data yang masih belum tahu
+    isinya apa, rekomendasi gunakan null.
+*/
