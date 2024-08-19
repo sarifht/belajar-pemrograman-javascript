@@ -38,3 +38,23 @@ console.log(namaDepan, namaBelakang); // Output: Sarif Hidayatullah
 // Jika memanggil data yang tidak ada di Object
 const hewan = { karnivora: "Singa" };
 console.log(hewan.herbivora); // Output: undefined
+
+// Mengubah nilai
+console.log("");
+const data = {
+  namaPresiden: "Soekarno",
+  rezim: "Soeharto",
+};
+
+console.log(data.namaPresiden); // Output: Soekarno
+
+data.namaPresiden = "Jokowi";
+console.log(data.namaPresiden); // Output: Jokowi
+
+// Menghapus nilai
+console.log("");
+
+console.log(data);
+
+delete data.rezim;
+console.log(data);
