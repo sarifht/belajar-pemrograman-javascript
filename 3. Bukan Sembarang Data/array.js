@@ -17,3 +17,21 @@ const nama = ["Sarif", "Gibran", "Anies", "Jokowi", "Mahfud"];
 console.log(nama);
 console.log(nama[0]);
 console.log(nama[9]);
+
+// Membuat Array menggunakan object constructor
+// Menggunakan new Array()
+const angka = new Array(1, 2, 3);
+console.log(angka);
+const campur = new Array("Sarif", 1, false);
+console.log(campur);
+
+// Menggunakan Array.from
+const ejaNama = Array.from("Sarif");
+console.log(ejaNama);
+const userName = new Array("Sarif", "Joko", "Anies");
+const customer = Array.from(userName);
+console.log(customer);
+
+// Menggunakan Array literal
+const namaBuah = ["Mangga", "Jeruk", "Nanas"];
+console.log(namaBuah);
