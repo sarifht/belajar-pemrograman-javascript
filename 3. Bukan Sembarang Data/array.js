@@ -66,3 +66,9 @@ console.log(namaHewan);
 const namaBurung = new Array("Merpati", "Elang", "Burung Hantu");
 namaBurung.pop();
 console.log(namaBurung);
+
+// Array destructuring
+const kata = ["Halo", "Hai", "Morning"];
+const [salam, sapaan, waktu] = kata;
+console.log(salam);
+console.log(sapaan);
