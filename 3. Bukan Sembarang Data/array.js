@@ -45,3 +45,24 @@ namaBuah[0] = "Apel";
 console.log(namaBuah);
 namaBuah[1] = "Bengkoang";
 console.log(namaBuah[1]);
+
+// Menambah data di dalam Array menggunakan push
+namaBuah.push("Durian");
+console.log(namaBuah);
+
+// Menghapus data di dalam Array
+delete namaBuah[1];
+console.log(namaBuah);
+
+namaBuah.splice(1, 1);
+console.log(namaBuah);
+namaBuah.splice(1, 2);
+console.log(namaBuah);
+
+// Menghapus menggunakan shift dan pop
+const namaHewan = new Array("Kucing", "Anjing", "Burung", "Ikan");
+namaHewan.shift();
+console.log(namaHewan);
+const namaBurung = new Array("Merpati", "Elang", "Burung Hantu");
+namaBurung.pop();
+console.log(namaBurung);
