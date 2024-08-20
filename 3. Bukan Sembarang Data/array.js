@@ -35,3 +35,13 @@ console.log(customer);
 // Menggunakan Array literal
 const namaBuah = ["Mangga", "Jeruk", "Nanas"];
 console.log(namaBuah);
+
+// Memanggil data di dalam Array
+console.log(namaBuah[0]);
+console.log(namaBuah[1]);
+
+// Mengubah data di dalam Array
+namaBuah[0] = "Apel";
+console.log(namaBuah);
+namaBuah[1] = "Bengkoang";
+console.log(namaBuah[1]);
