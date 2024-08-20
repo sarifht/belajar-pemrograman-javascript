@@ -72,3 +72,13 @@ const kata = ["Halo", "Hai", "Morning"];
 const [salam, sapaan, waktu] = kata;
 console.log(salam);
 console.log(sapaan);
+
+// Array method reverse
+const namaKota = ["Batam", "Jakarta", "Padang", "Tangerang"];
+namaKota.reverse();
+console.log(namaKota);
+
+// Array method sort
+const namaNegara = ["Indonesia", "Malaysia", "Singapura", "Thailand"];
+namaNegara.sort();
+console.log(namaNegara);
