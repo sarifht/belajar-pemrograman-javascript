@@ -28,3 +28,11 @@ const namaOrang = { nama1: "Sarif", nama2: "Anies", nama3: "Joko" };
 for (const panggilan in namaOrang) {
   console.log(`Halo nama saya ${namaOrang[panggilan]}`);
 }
+
+// Kodingan for of
+console.log("");
+const names = ["Bebek", "Ayam", "Telor", "Tempe"];
+
+for (const item of names) {
+  console.log(item);
+}
