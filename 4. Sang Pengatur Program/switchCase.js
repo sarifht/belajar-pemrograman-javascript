@@ -39,3 +39,16 @@ if (day === 0) {
 } else {
   console.log("Hari tidak valid");
 }
+
+// Kondisi jika break tidak ada
+const buah = "Jeruk";
+switch (buah) {
+  case "Apel":
+    console.log("Hai buah Apel");
+  case "Jeruk":
+    console.log("Hai buah Jeruk");
+  case "Mangga":
+    console.log("Hai buah Mangga");
+    break;
+  default:
+}
