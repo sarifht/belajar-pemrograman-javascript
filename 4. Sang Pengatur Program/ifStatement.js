@@ -38,3 +38,21 @@ const isMember = true;
 const discount = isMember ? 0.1 : 0;
 
 console.log(`Anda mendapatkan discount sebesar ${discount * price}`);
+
+// Contoh kondisi double
+console.log("");
+const cuaca = "hujan";
+if (cuaca === "hujan") {
+  console.log("Jangan lupa pakai payung");
+}
+
+const payung = "ada";
+if (payung === "tidak ada") {
+  console.log("Kamu akan kehujanan");
+}
+
+if (cuaca === "hujan" && payung === "tidak ada") {
+  console.log("Hahaha mampus");
+}
+
+console.log("program selesai");
